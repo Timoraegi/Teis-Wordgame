@@ -10,7 +10,7 @@ const Instructions = () => {
         </div>
         <div className="instructions">
           <p>
-            Guess the <strong>WORDLE</strong> in six tries.
+            Guess the <strong>WORD</strong> in six tries.
           </p>
           <p>
             Each guess must be a valid five-letter word. Hit the enter button to
@@ -73,7 +73,7 @@ const Instructions = () => {
 
           <p>
             <strong>
-              You can play as many WORDLE as you like! <strong></strong>
+              You can play as many WORD GAME as you like! <strong></strong>
               Click anywhere to start.
             </strong>
           </p>

@@ -1,11 +1,11 @@
 import words from "../words.json";
 const initialState = {
-  word: "NONCE",
+  word: "MINCE",
   word1: "DREAM",
   word2: "RADIO",
   word3: "TABLE",
-  word4: "SNACK",
-  word5: "NOISE",
+  word4: "SMACK",
+  word5: "VOICE",
   word6: "",
   current: 6, // User is now on the 6th and final row
   alert: false,
@@ -48,7 +48,7 @@ const Reducer = (state = initialState, action) => {
     case "SET_WORD":
       return {
         ...state,
-        word: "NONCE",
+        word: "MINCE",
       };
 
     case "EDIT_WORD":

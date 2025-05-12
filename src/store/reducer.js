@@ -1,13 +1,13 @@
 import words from "../words.json";
 const initialState = {
-  word: "AROMA",
-  word1: "",
-  word2: "",
-  word3: "",
-  word4: "",
-  word5: "",
+  word: "NONCE",
+  word1: "DREAM",
+  word2: "RADIO",
+  word3: "TABLE",
+  word4: "SNACK",
+  word5: "NOISE",
   word6: "",
-  current: 1,
+  current: 6, // User is now on the 6th and final row
   alert: false,
   pass: false,
   tryAgain: false,
@@ -42,13 +42,13 @@ const initialState = {
   },
 };
 
+
 const Reducer = (state = initialState, action) => {
   switch (action.type) {
     case "SET_WORD":
-      const index = Math.round(Math.random() * 5757);
       return {
         ...state,
-        word: words[0]["words"][index].toUpperCase(),
+        word: "NONCE",
       };
 
     case "EDIT_WORD":

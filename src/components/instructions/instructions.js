@@ -30,42 +30,42 @@ const Instructions = () => {
           </p>
           <div className="example">
             <div className="row">
-              <div style={{ backgroundColor: "#6aaa64" }}>W</div>
-              <div>E</div>
+              <div style={{ backgroundColor: "#6aaa64" }}>S</div>
               <div>A</div>
-              <div>R</div>
-              <div>Y</div>
-            </div>
-            <p>
-              The letter <strong>W</strong> is in the word and in the correct
-              spot.
-            </p>
-          </div>
-
-          <div className="example">
-            <div className="row">
-              <div>P</div>
-              <div style={{ backgroundColor: "#c9b458" }}>I</div>
-              <div>L</div>
-              <div>L</div>
-              <div>S</div>
-            </div>
-            <p>
-              The letter <strong>I</strong> is in the word but in the wrong
-              spot.
-            </p>
-          </div>
-
-          <div className="example">
-            <div className="row">
+              <div>T</div>
+              <div>I</div>
               <div>V</div>
-              <div>A</div>
-              <div>G</div>
-              <div style={{ backgroundColor: "#787c7e" }}>U</div>
-              <div>E</div>
             </div>
             <p>
-              The letter <strong>U</strong> is not in the word in any spot.
+              The letter <strong>S</strong> is in the word and in the correct
+              spot.
+            </p>
+          </div>
+
+          <div className="example">
+            <div className="row">
+              <div>I</div>
+              <div style={{ backgroundColor: "#c9b458" }}>N</div>
+              <div>D</div>
+              <div>I</div>
+              <div>C</div>
+            </div>
+            <p>
+              The letter <strong>N</strong> is in the word but in the wrong
+              spot.
+            </p>
+          </div>
+
+          <div className="example">
+            <div className="row">
+              <div>M</div>
+              <div>I</div>
+              <div>N</div>
+              <div style={{ backgroundColor: "#787c7e" }}>A</div>
+              <div>T</div>
+            </div>
+            <p>
+              The letter <strong>A</strong> is not in the word in any spot.
             </p>
           </div>
 

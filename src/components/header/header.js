@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <div className="title">Wordle</div>
+      <div className="title">Word Game</div>
     </header>
   );
 };

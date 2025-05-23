@@ -85,7 +85,7 @@
 
 /* Themed key states */
 button.correct {
-  background-color: #4caf50;
+  background-color: #ff6b35;
   color: #ffffff;
 }
 
@@ -95,6 +95,6 @@ button.present {
 }
 
 button.absent {
-  background-color: #9e9e9e;
+  background-color: #efefd0;
   color: #ffffff;
 }

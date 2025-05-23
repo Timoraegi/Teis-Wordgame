@@ -216,3 +216,5 @@ const mapDispatchtoProps = (dispatch) => {
     onset: () => dispatch({ type: "SET_WORD" }),
   };
 };
+
+export default connect(mapStatetoProps, mapDispatchtoProps)(Keyboard);

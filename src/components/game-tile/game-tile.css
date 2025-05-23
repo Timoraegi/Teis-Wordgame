@@ -18,19 +18,19 @@
   border-radius: 50%; /* Make it a circle */
 }
 
-.green/orange {
+.green-orange {
   background-color: #ff6b35;
   color: #ffffff;
   border: none;
 }
 
-.grey/blue {
+.grey-blue {
   background-color: #efefd0;
   color: #ffffff;
   border: none;
 }
 
-.yellow/warm {
+.yellow-warm {
   background-color: #f7c59f;
   color: #ffffff;
   border: none;

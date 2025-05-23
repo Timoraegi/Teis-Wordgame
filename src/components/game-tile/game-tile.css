@@ -3,34 +3,35 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   font-weight: bold;
   vertical-align: middle;
   box-sizing: border-box;
-  color: #000000;
+  color: #dbe4ee;
   text-transform: uppercase;
   user-select: none;
   border: 2px solid #d3d6da;
   margin: 2px;
   width: 62px;
   height: 62px;
+  border-radius: 50%; /* Make it a circle */
 }
 
-.green {
-  background-color: #6aaa64;
+.green/orange {
+  background-color: #ff6b35;
   color: #ffffff;
   border: none;
 }
 
-.grey {
-  background-color: #787c7e;
+.grey/blue {
+  background-color: #efefd0;
   color: #ffffff;
   border: none;
 }
 
-.yellow {
-  background-color: #c9b458;
+.yellow/warm {
+  background-color: #f7c59f;
   color: #ffffff;
   border: none;
 }
@@ -39,5 +40,6 @@
   .tile {
     width: 50px;
     height: 50px;
+    border-radius: 50%; /* Ensure circle on mobile too */
   }
 }

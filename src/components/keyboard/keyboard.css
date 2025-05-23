@@ -45,7 +45,7 @@
     border-radius: 50%;
     cursor: pointer;
     user-select: none;
-    background-color: #dbe4ee;
+    background-color: #efefd0;
     color: #000000;
     display: flex;
     justify-content: center;
@@ -73,7 +73,7 @@
     border-radius: 50%;
     cursor: pointer;
     user-select: none;
-    background-color: #dbe4ee;
+    background-color: #efefd0;
     color: #000000;
     display: flex;
     justify-content: center;
@@ -83,7 +83,6 @@
   }
 }
 
-/* Themed key states */
 button.correct {
   background-color: #ff6b35;
   color: #ffffff;

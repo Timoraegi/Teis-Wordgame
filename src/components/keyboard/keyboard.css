@@ -10,90 +10,53 @@
   flex-basis: 30%;
 }
 
-/* Mobile styles */
+.keyboard-button {
+  font-family: inherit;
+  font-weight: bold;
+  border: 0;
+  padding: 0;
+  margin: 0 6px 0 0;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+  background-color: #d1cd9b;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Color states */
+.correct {
+  background-color: #ff6b35 !important;
+  color: #ffffff;
+}
+
+.present {
+  background-color: #f7c59f !important;
+  color: #ffffff;
+}
+
+.absent {
+  background-color: #efefd0 !important;
+  color: #ffffff;
+}
+
+/* Responsive adjustments */
 @media (max-width: 737px) {
   .keyboard {
     width: 100%;
   }
 
-  .row-one > button {
+  .row-one > button,
+  .row-two > button,
+  .row-three > button,
+  .keyboard-button {
     width: 50px;
     height: 50px;
   }
-
-  .row-two {
-    width: 85%;
-  }
-
-  .row-two > button {
-    width: 50px;
-    height: 50px;
-  }
-
-  .row-three > button {
-    width: 50px;
-    height: 50px;
-  }
-
-  button {
-    font-family: inherit;
-    font-weight: bold;
-    border: 0;
-    padding: 0;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-    user-select: none;
-    background-color: #d1cd9b;
-    color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
-  }
-}
-
-/* Desktop styles */
-@media (min-width: 738px) {
-  .key-row > button {
-    width: 62px;
-    height: 62px;
-  }
-
-  button {
-    font-family: inherit;
-    font-weight: bold;
-    border: 0;
-    padding: 0;
-    margin: 0 6px 0 0;
-    width: 62px;
-    height: 62px;
-    border-radius: 50%;
-    cursor: pointer;
-    user-select: none;
-    background-color: #d1cd9b;
-    color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
-  }
-}
-
-button.correct {
-  background-color: #ff6b35;
-  color: #ffffff;
-}
-
-button.present {
-  background-color: #f7c59f;
-  color: #ffffff;
-}
-
-button.absent {
-  background-color: #efefd0;
-  color: #ffffff;
 }

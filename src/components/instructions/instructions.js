@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./instructions.css";
 
 const Instructions = () => {
@@ -28,53 +28,51 @@ const Instructions = () => {
           <p>
             <strong>Examples</strong>
           </p>
+
           <div className="example">
             <div className="row">
-              <div style={{ backgroundColor: "#6aaa64" }}>S</div>
-              <div>A</div>
-              <div>T</div>
-              <div>I</div>
-              <div>V</div>
+              <div className="correct">S</div>
+              <div className="keyboard-button">A</div>
+              <div className="keyboard-button">T</div>
+              <div className="keyboard-button">I</div>
+              <div className="keyboard-button">V</div>
             </div>
             <p>
-              The letter <strong>S</strong> is in the word and in the correct
-              spot.
+              The letter <strong>S</strong> is in the word and in the correct spot.
             </p>
           </div>
 
           <div className="example">
             <div className="row">
-              <div>I</div>
-              <div style={{ backgroundColor: "#c9b458" }}>N</div>
-              <div>D</div>
-              <div>I</div>
-              <div>C</div>
+              <div className="keyboard-button">I</div>
+              <div className="present">N</div>
+              <div className="keyboard-button">D</div>
+              <div className="keyboard-button">I</div>
+              <div className="keyboard-button">C</div>
             </div>
             <p>
-              The letter <strong>N</strong> is in the word but in the wrong
-              spot.
+              The letter <strong>N</strong> is in the word but in the wrong spot.
             </p>
           </div>
 
           <div className="example">
             <div className="row">
-              <div>M</div>
-              <div>I</div>
-              <div>N</div>
-              <div style={{ backgroundColor: "#787c7e" }}>A</div>
-              <div>T</div>
+              <div className="keyboard-button">M</div>
+              <div className="keyboard-button">I</div>
+              <div className="keyboard-button">N</div>
+              <div className="absent">A</div>
+              <div className="keyboard-button">T</div>
             </div>
             <p>
               The letter <strong>A</strong> is not in the word in any spot.
             </p>
           </div>
 
-          <hr></hr>
+          <hr />
 
           <p>
             <strong>
-              You can play as many WORD GAME as you like! <strong></strong>
-              Click anywhere to start.
+              You can play as many WORD GAMEs as you like! Click anywhere to start.
             </strong>
           </p>
         </div>

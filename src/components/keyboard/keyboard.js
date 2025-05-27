@@ -27,7 +27,7 @@ class Keyboard extends React.Component {
   getKeyClass = (letter) => {
     const color = this.props.letterColors[letter];
     if (!color) return "";
-    return color.toLowerCase(); // e.g. "correct", "present", "absent"
+    return color.toLowerCase(); // should be 'correct', 'present', or 'absent'
   };
 
   render() {
@@ -38,7 +38,7 @@ class Keyboard extends React.Component {
             <button
               key={letter}
               data-value={letter}
-              className={this.getKeyClass(letter)}
+              className={`keyboard-button ${this.getKeyClass(letter)}`}
             >
               {letter}
             </button>
@@ -49,24 +49,24 @@ class Keyboard extends React.Component {
             <button
               key={letter}
               data-value={letter}
-              className={this.getKeyClass(letter)}
+              className={`keyboard-button ${this.getKeyClass(letter)}`}
             >
               {letter}
             </button>
           ))}
         </div>
         <div className="key-row row-three" onClick={this.onEdit}>
-          <button data-check="\n">ENTER</button>
+          <button className="keyboard-button" data-check="\n">ENTER</button>
           {"ZXCVBNM".split("").map((letter) => (
             <button
               key={letter}
               data-value={letter}
-              className={this.getKeyClass(letter)}
+              className={`keyboard-button ${this.getKeyClass(letter)}`}
             >
               {letter}
             </button>
           ))}
-          <button data-value="DEL">DEL</button>
+          <button className="keyboard-button" data-value="DEL">DEL</button>
         </div>
       </section>
     );
